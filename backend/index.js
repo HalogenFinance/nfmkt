@@ -86,5 +86,5 @@ app.use(function (err, req, res, next) {
 /*
 * Below lines used to run api service 
 */
-https.createServer(options, app).listen(config.app.port, () => console.log(`Cryptotrades app listening on port ${config.app.port}!`));
-// app.listen(config.app.port, () => console.log(`Cryptotrades app listening on port ${config.app.port}!`))
+//https.createServer(options, app).listen(config.app.port, () => console.log(`Cryptotrades app listening on port ${config.app.port}!`));
+ app.listen(config.app.port, () => console.log(`Cryptotrades app listening on port ${config.app.port}!`))
