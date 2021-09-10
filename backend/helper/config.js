@@ -11,12 +11,12 @@ const config = {
       port: 5000
     },
     db: {
-      host: 'localhost',
+      host: 'db-mongodb-nyc3-nf-8ccdd881.mongo.ondigitalocean.com',
       port: 27017,
-      username: '',
-      password: '',
-      name: '',
-      prefix:'linkwell_'
+      username: 'doadmin',
+      password: 'zjPa0251o4lMs836',
+      name: 'admin',
+      prefix:'nf_'
     },
     mail: {
       type:"",
