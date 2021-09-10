@@ -31,11 +31,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/media'));
 app.use(cors())
 
+
+const options = { }
+
+/*
 const options = {
     key: fs.readFileSync("/var/www/html/backend/certificate/_.protomock.com_private_key.key"),
     cert: fs.readFileSync("/var/www/html/backend/certificate/solved-trust-chain.crt")
 };
-
+*/
 
 /*
 * Below lines used to connect databse moongoose ORM
