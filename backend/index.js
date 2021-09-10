@@ -44,11 +44,14 @@ const options = {
 /*
 * Below lines used to connect databse moongoose ORM
 */
+mongoose.connect('mongodb+srv://doadmin:zjPa0251o4lMs836@db-mongodb-nyc3-nf-8ccdd881.mongo.ondigitalocean.com/admin?authSource=admin&replicaSet=db-mongodb-nyc3-nf&tls=true&tlsCAFile=ca-certificate.crt')
+/*
 mongoose.connect('mongodb://'+config.db.host+':'+config.db.port+'/'+config.db.name, {useNewUrlParser: true,auth: {
     authSource: "admin"
   },
   user: config.db.username,
   pass: config.db.password});
+  */
 var db = mongoose.connection;
 // Added check for DB connection
 if(!db) {
